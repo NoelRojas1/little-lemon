@@ -1,9 +1,11 @@
-import restaurantFood from "../assets/restauranfood.jpg";
+import Logo from "../assets/Logo_white.svg";
+import { FaFacebook } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
     <footer className="footer">
-      <img src={restaurantFood} alt="Restaurant Food" className="footer-img" />
+      <img src={Logo} alt="Restaurant Food" className="footer-img" />
       <div className="footer-container">
         <div>
           <h3>Doormat Navigation</h3>
@@ -55,12 +57,12 @@ function Footer() {
           <ul className="footer-link-container">
             <li className="footer-link-item">
               <a className="footer-link" href="https://facebook.com">
-                Facebook
+                <FaFacebook />
               </a>
             </li>
             <li className="footer-link-item">
               <a className="footer-link" href="https://twitter.com">
-                X
+                <FaXTwitter />
               </a>
             </li>
           </ul>

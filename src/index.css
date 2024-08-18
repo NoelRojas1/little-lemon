@@ -1,17 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root {
   --color-primary: #495e57;
   --color-secondary: #f4ce14;
+  --color-accent: #ee9972;
   --color-dark: #333;
+  --color-black: #000;
+  --color-blue: #4267b2;
   --color-dark-shade: #333333a1;
   --color-light: #fafafa;
+  --color-light-shade: #e6e3e3;
 
   --ff-markazi: "Markazi Text", serif;
   --ff-karla: "Karla", sans-serif;
+  --ff-roboto: "Roboto", sans-serif;
   --fs-title: 64px;
   --fs-subtitle: 40px;
   --fs-regular: 18px;
+  --fs-card-title: 18px;
+  --fs-paragraph-regular: 16px;
+  --fw-bold: 700;
+  --fw-medium: 600;
+  --fw-regular: 500;
+
+  --lh-paragraph: 1.5;
 
   --rounded: 16px;
 }
@@ -20,4 +31,29 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  border-radius: var(--rounded);
+  padding: 10px 15px;
+  min-width: 150px;
+  max-width: fit-content;
+
+  font-weight: 700;
+
+  color: var(--color-light);
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: var(--color-primary);
+}
+
+.secondary-btn {
+  background-color: var(--color-secondary);
 }
