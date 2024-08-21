@@ -24,7 +24,7 @@ function Hero() {
           </div>
           <Button
             desc={"Reserve a Table"}
-            type="secondary"
+            variety="secondary"
             onClick={hanldeClick}
           />
         </div>

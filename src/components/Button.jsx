@@ -1,11 +1,11 @@
-function Button({ desc, type, ...props }) {
-  const types = {
+function Button({ desc, variety, ...props }) {
+  const varieties = {
     primary: "primary-btn",
     secondary: "secondary-btn",
   };
 
   return (
-    <button className={`btn ${types[type]}`} {...props}>
+    <button className={`btn ${varieties[variety]}`} {...props}>
       {desc}
     </button>
   );
