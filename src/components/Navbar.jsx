@@ -1,39 +1,42 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/Logo.svg";
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <img src={logo} alt="logo" className="logo" />
+      <Link to="/">
+        <img src={logo} alt="logo" className="logo" />
+      </Link>
       <ul className="navbar-link-container">
         <li className="navbar-link-item">
-          <a href="#" className="navbar-link">
+          <Link to="/" className="navbar-link">
             home
-          </a>
+          </Link>
         </li>
         <li className="navbar-link-item">
-          <a href="#" className="navbar-link">
+          <Link to="#" className="navbar-link">
             about
-          </a>
+          </Link>
         </li>
         <li className="navbar-link-item">
-          <a href="#" className="navbar-link">
+          <Link to="#" className="navbar-link">
             menu
-          </a>
+          </Link>
         </li>
         <li className="navbar-link-item">
-          <a href="#" className="navbar-link">
+          <Link to="#" className="navbar-link">
             registration
-          </a>
+          </Link>
         </li>
         <li className="navbar-link-item">
-          <a href="#" className="navbar-link">
+          <Link to="#" className="navbar-link">
             order online
-          </a>
+          </Link>
         </li>
         <li className="navbar-link-item">
-          <a href="#" className="navbar-link">
+          <Link to="#" className="navbar-link">
             login
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
