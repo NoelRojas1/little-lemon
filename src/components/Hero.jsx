@@ -26,6 +26,7 @@ function Hero() {
             desc={"Reserve a Table"}
             variety="secondary"
             onClick={hanldeClick}
+            aria-label="On Click"
           />
         </div>
         <div className="hero_image">

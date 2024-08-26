@@ -544,7 +544,7 @@ img {
   background-color: var(--color-secondary);
   padding: 15px;
   font-family: inherit;
-  color: var(--color-light);
+  color: var(--color-dark);
   font-size: var(--fs-paragraph-regular);
   border: none;
   outline: none;
@@ -575,9 +575,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--color-dark);
 }
 
 .booking_form button {
+  color: var(--color-dark);
   align-self: center;
   margin-top: 2em;
 }

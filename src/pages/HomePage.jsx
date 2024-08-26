@@ -1,5 +1,4 @@
 import { Fragment } from "react";
-import Main from "../components/Main";
 import Hero from "../components/Hero";
 import Specials from "../components/Specials";
 import Testimonials from "../components/Testimonials";

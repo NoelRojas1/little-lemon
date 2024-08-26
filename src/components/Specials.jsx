@@ -30,7 +30,7 @@ function Specials() {
     <section id="specials">
       <div className="specials_header">
         <h2>Specials</h2>
-        <Button desc="Online Menu" variety="primary" />
+        <Button desc="Online Menu" variety="primary" aria-label="On Click" />
       </div>
       <div className="specials_items">
         {data.map((item) => (
